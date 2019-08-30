@@ -1,2 +1,2 @@
 # mvpplayground
-Implement all stuff relate to MVP architect
+Implementing all stuff relates to MVP architectural pattern
