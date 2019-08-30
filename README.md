@@ -1,2 +1,2 @@
-# mvpplayground
-Implementing all stuff relates to MVP architectural pattern
+# Technical issues
+ - MVVM architecture pattern
