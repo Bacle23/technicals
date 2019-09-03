@@ -11,7 +11,6 @@ import com.crystals.mvvmplayground.viewmodel.HomeViewmodel
 
 
 class HomeFragment : Fragment() {
-    private lateinit var homeViewmodel: HomeViewmodel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
