@@ -1,4 +1,4 @@
-package com.crystals.mvpplayground
+package com.crystals.mvvmplayground
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

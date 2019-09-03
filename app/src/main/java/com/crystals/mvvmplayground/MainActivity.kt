@@ -1,4 +1,4 @@
-package com.crystals.mvpplayground
+package com.crystals.mvvmplayground
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

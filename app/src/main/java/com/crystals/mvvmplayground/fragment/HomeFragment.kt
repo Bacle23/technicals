@@ -1,11 +1,11 @@
-package com.crystals.mvpplayground.fragment
+package com.crystals.mvvmplayground.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.crystals.mvpplayground.R
+import com.crystals.mvvmplayground.R
 
 
 class HomeFragment : Fragment() {

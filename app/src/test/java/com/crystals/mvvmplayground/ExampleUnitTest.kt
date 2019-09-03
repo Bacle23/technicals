@@ -1,4 +1,4 @@
-package com.crystals.mvpplayground
+package com.crystals.mvvmplayground
 
 import org.junit.Test
 
