@@ -4,19 +4,27 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.crystals.mvvmplayground.R
+import com.crystals.mvvmplayground.databinding.FragmentHomeBinding
+import com.crystals.mvvmplayground.viewmodel.HomeViewmodel
 
 
 class HomeFragment : Fragment() {
-
+    private lateinit var homeViewmodel: HomeViewmodel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val binding: FragmentHomeBinding =
+            DataBindingUtil.inflate(
+                inflater, com.crystals.mvvmplayground.R.layout.fragment_home,
+                container, false
+            )
+
+        binding.model = HomeViewmodel()
+        return binding.root
     }
 
 }
