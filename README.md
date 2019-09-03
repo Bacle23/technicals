@@ -10,6 +10,6 @@
 			
 	- add model to binding data in fragment
 			
-	(refer: HomeViewmodel,HomeFragment,R.layout.fragment_home)
+	(refer: HomeViewmodel, HomeFragment, R.layout.fragment_home)
 					
                       
